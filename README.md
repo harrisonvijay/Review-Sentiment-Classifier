@@ -34,6 +34,7 @@
 
 ### To make it work
 
+- Create a virtual environment and activate it (virtualenv package) [Optional]
 - Install all the modules in requirements.txt (pip install -r requirements.txt)
 - Download the dataset
 - Run train.py to get the pickle files of the trained model and vectorizer

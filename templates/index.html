@@ -10,12 +10,14 @@
 </head>
 
 <body>
-    <h1>Review Sentiment Classifier</h1>
-    <div class="input">
-        <textarea id="text" placeholder="Enter your text here"></textarea>
-        <button onclick="classify()">Classify</button>
+    <div>
+        <h1>Review Sentiment Classifier</h1>
+        <div class="input">
+            <textarea id="text" placeholder="Enter your text here"></textarea>
+            <button onclick="classify()">Classify</button>
+        </div>
+        <div id="result"></div>
     </div>
-    <div id="result"></div>
 </body>
 
 <script src="{{url_for('static', filename='index.js')}}"></script>
