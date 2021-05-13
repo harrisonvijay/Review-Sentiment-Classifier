@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Classification</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='index.css')}}">
+</head>
+
+<body>
+    <h1>Review Sentiment Classifier</h1>
+    <div class="input">
+        <textarea id="text" placeholder="Enter your text here"></textarea>
+        <button onclick="classify()">Classify</button>
+    </div>
+    <div id="result"></div>
+</body>
+
+<script src="{{url_for('static', filename='index.js')}}"></script>
+
+</html>
